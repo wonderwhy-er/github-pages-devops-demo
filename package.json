@@ -1,0 +1,28 @@
+{
+  "name": "github-pages-devops-demo",
+  "version": "1.0.0",
+  "description": "A demonstration of DevOps practices using GitHub Actions and GitHub Pages",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "lint:html": "npx htmlhint index.html",
+    "lint:css": "npx stylelint \"css/**/*.css\"",
+    "check-links": "npx blc http://localhost:5000 -ro",
+    "validate": "npm run lint:html && npm run lint:css"
+  },
+  "keywords": [
+    "github-pages",
+    "devops",
+    "github-actions",
+    "ci-cd"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "broken-link-checker": "^0.7.8",
+    "htmlhint": "^1.1.4",
+    "serve": "^14.2.0",
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}

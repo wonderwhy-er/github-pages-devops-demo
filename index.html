@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages DevOps Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GitHub Pages with GitHub Actions</h1>
+            <p>A simple demonstration of DevOps practices using GitHub Actions</p>
+        </header>
+        
+        <main>
+            <section class="features">
+                <h2>Features Demonstrated:</h2>
+                <ul>
+                    <li>Automatic deployment to GitHub Pages</li>
+                    <li>HTML validation on pull requests</li>
+                    <li>CSS linting on pull requests</li>
+                    <li>Link checking</li>
+                    <li>Build status badges</li>
+                </ul>
+            </section>
+            
+            <section class="status">
+                <h2>Current Build Status:</h2>
+                <p>Last deployed: <span id="deploy-date">Loading...</span></p>
+                <p>Build version: <span id="build-version">v1.0.0</span></p>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Created as a DevOps demonstration using GitHub Actions</p>
+            <p id="current-year"></p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
