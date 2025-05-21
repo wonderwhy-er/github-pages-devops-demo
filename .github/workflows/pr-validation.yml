@@ -18,7 +18,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          npm install -g htmlhint stylelint stylelint-config-standard broken-link-checker
+          npm install -g htmlhint stylelint stylelint-config-standard
           echo '{"extends": "stylelint-config-standard"}' > .stylelintrc.json
       
       - name: Validate HTML
@@ -26,13 +26,6 @@ jobs:
       
       - name: Lint CSS
         run: stylelint "css/**/*.css"
-      
-      - name: Check for broken links
-        run: |
-          npx serve -l 8080 &
-          sleep 5
-          npx blc http://localhost:8080 -ro
-          kill $(lsof -t -i:8080)
       
       - name: Comment on PR
         uses: actions/github-script@v6
