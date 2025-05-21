@@ -1,9 +1,11 @@
 # GitHub Pages DevOps Demo
 
-[![Deploy to GitHub Pages](https://github.com/USERNAME/github-pages-devops-demo/actions/workflows/deploy.yml/badge.svg)](https://github.com/USERNAME/github-pages-devops-demo/actions/workflows/deploy.yml)
-[![PR Validation](https://github.com/USERNAME/github-pages-devops-demo/actions/workflows/pr-validation.yml/badge.svg)](https://github.com/USERNAME/github-pages-devops-demo/actions/workflows/pr-validation.yml)
+[![Deploy to GitHub Pages](https://github.com/wonderwhy-er/github-pages-devops-demo/actions/workflows/deploy.yml/badge.svg)](https://github.com/wonderwhy-er/github-pages-devops-demo/actions/workflows/deploy.yml)
+[![PR Validation](https://github.com/wonderwhy-er/github-pages-devops-demo/actions/workflows/pr-validation.yml/badge.svg)](https://github.com/wonderwhy-er/github-pages-devops-demo/actions/workflows/pr-validation.yml)
 
 A simple demonstration of DevOps practices using GitHub Actions and GitHub Pages.
+
+> This project was created during a lightning talk at the DevOps and AI Meetup in Riga in 2025, using [Desktop Commander](https://desktopcommander.app/).
 
 ## Features
 

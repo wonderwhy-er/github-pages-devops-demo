@@ -47,9 +47,9 @@ main {
 section {
     margin-bottom: 2rem;
     padding: 1.5rem;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
 }
 
 h2 {
